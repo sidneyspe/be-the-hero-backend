@@ -19,7 +19,7 @@ class ProfileController {
           {
             model: Ong,
             as: 'ong',
-            attributes: ['id', 'name'],
+            attributes: ['id', 'name', 'email', 'whatsapp', 'city', 'uf'],
           },
         ],
       });
